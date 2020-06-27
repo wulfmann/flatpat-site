@@ -9,7 +9,7 @@ export default function() {
       </section>
       <section>
         <h2>Gallery</h2>
-        <div className="grid">
+        <div className="grid home-grid">
           <Link href="/gallery/1">
             <div className="placeholder"></div>
           </Link>
@@ -23,7 +23,7 @@ export default function() {
             <div className="placeholder"></div>
           </Link>
         </div>
-        <div>
+        <div className="home-grid">
          <Link href="/gallery">
             <a>View More</a>
          </Link>
