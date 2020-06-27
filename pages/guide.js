@@ -3,7 +3,7 @@ import Link from '../components/Link';
 
 export default function() {
   return (
-    <Layout title="Guide">
+    <Layout title="Guide" description="How to use flat pat">
       <section>
         <h2>Assemble</h2>
         <p>Assemble your flatpat using the provided popsicle stick, or get creative!</p>
