@@ -1,7 +1,7 @@
 import Link from 'next/link';
 // import { useRouter } from 'next/router';
-import Layout from '../layouts/default';
-import styles from '../styles/pages/gallery-item.module.scss';
+import Layout from '../../layouts/default';
+import styles from '../../styles/pages/gallery-item.module.scss';
 
 export default function() {
 
