@@ -12,6 +12,9 @@ export default function() {
         <Link href="/guide">
           <a>Guide</a>
         </Link>
+        <Link href="/map">
+          <a>Map</a>
+        </Link>
         <Link href="/gallery">
           <a>Gallery</a>
         </Link>
