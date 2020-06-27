@@ -24,6 +24,9 @@ export default function() {
           </Link>
         </div>
       </section>
+      <section>
+        <h2>Submit</h2>
+      </section>
     </Layout>
   )
 }
