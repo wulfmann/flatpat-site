@@ -1,4 +1,5 @@
 import Layout from '../layouts/default';
+import Link from '../components/Link';
 
 export default function() {
   return (
@@ -14,6 +15,7 @@ export default function() {
       <section>
         <h2>Submit</h2>
         <p>Submit your flatpat</p>
+        <Link href="/submit">Submit</Link>
       </section>
     </Layout>
   )
