@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../styles/components/Header.component.scss';
+import styles from '../styles/components/Header.module.scss';
 
 export default function() {
   return (
