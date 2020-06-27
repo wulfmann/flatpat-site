@@ -6,16 +6,20 @@ export default function() {
     <Layout title="Guide" description="How to use flat pat">
       <section>
         <h2>Assemble</h2>
-        <p>Assemble your flatpat using the provided popsicle stick, or get creative!</p>
+        <p>Build your Flat Pat using the provided popsicle stick, or get creative!</p>
+        <div className="grid">
+          <div className="placeholder"></div>
+                    <div className="placeholder"></div>
+        </div>
       </section>
       <section>
-        <h2>Photograph</h2>
-        <p>Photograph your flatpat</p>
+        <h2>Capture</h2>
+        <p>Photograph your Flat Pat</p>
         <Link href="/examples">See Examples</Link>
       </section>
       <section>
         <h2>Submit</h2>
-        <p>Submit your flatpat</p>
+        <p>Submit your photos and videos</p>
         <Link href="/submit">Submit</Link>
       </section>
     </Layout>
