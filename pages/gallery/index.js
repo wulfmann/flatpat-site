@@ -5,7 +5,6 @@ export default function() {
   return (
     <Layout title="Gallery">
       <section>
-        <h2>Gallery</h2>
         <div className="grid">
           <Link href="/gallery/1">
             <div className="placeholder"></div>
