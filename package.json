@@ -1,6 +1,9 @@
 {
   "name": "flatpat",
   "version": "1.0.0",
+  "devDependencies": {
+    "sass": "latest"
+  },
   "dependencies": {
     "next": "latest",
     "react": "latest",
