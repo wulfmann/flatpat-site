@@ -3,7 +3,7 @@ import Link from '../components/Link';
 
 export default function() {
   return (
-    <Layout title="How">
+    <Layout title="Guide">
       <section>
         <h2>Assemble</h2>
         <p>Assemble your flatpat.</p>
