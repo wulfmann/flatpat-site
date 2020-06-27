@@ -23,7 +23,7 @@ export default function() {
             <div className="placeholder"></div>
           </Link>
         </div>
-        <div className="home-grid">
+        <div className="home-link">
          <Link href="/gallery">
             <a>View More</a>
          </Link>
