@@ -12,6 +12,11 @@ body {
   box-sizing: inherit;
 }
 
+main {
+  margin: 0;
+  padding: 0;
+}
+
 .center {
   display: flex;
   flex-direction: column;
