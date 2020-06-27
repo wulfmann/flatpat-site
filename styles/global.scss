@@ -81,12 +81,12 @@ select {
 
 .grid {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .placeholder {
   background-color: #ccc;
   border-radius: .6rem;
   height: 100px;
-  width: 100px;
+  width: 100%;
 }
