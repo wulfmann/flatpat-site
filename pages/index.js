@@ -4,9 +4,18 @@ import Layout from '../layouts/default';
 export default function() {
   return (
     <Layout title="Flat Pat">
-      <div className="center">
+      <section>
        <img src="/logo.svg" alt="Flat Pat" width="150"/>
-      </div>
+      </section>
+      <section>
+        <h2>Gallery</h2>
+        <div className="grid">
+          <div className="placeholder"></div>
+          <div className="placeholder"></div>
+          <div className="placeholder"></div>
+          <div className="placeholder"></div>
+        </div>
+      </section>
     </Layout>
   )
 }
