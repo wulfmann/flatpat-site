@@ -10,10 +10,18 @@ export default function() {
       <section>
         <h2>Gallery</h2>
         <div className="grid">
-          <div className="placeholder"></div>
-          <div className="placeholder"></div>
-          <div className="placeholder"></div>
-          <div className="placeholder"></div>
+          <Link href="/gallery/1">
+            <div className="placeholder"></div>
+          </Link>
+          <Link href="/gallery/1">
+            <div className="placeholder"></div>
+          </Link>
+          <Link href="/gallery/1">
+            <div className="placeholder"></div>
+          </Link>
+          <Link href="/gallery/1">
+            <div className="placeholder"></div>
+          </Link>
         </div>
       </section>
     </Layout>
