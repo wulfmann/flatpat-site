@@ -23,6 +23,11 @@ export default function() {
             <div className="placeholder"></div>
           </Link>
         </div>
+        <div>
+         <Link href="/gallery">
+            <a>View More</a>
+         </Link>
+        </div>
       </section>
       <section>
         <h2>Submit</h2>
