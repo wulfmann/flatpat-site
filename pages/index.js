@@ -5,7 +5,7 @@ export default function() {
     <div>
       <h1>Im Flat Pat</h1>
       <p>a pat that is flat</p>
-      <Link href=`/about`>   
+      <Link href="/about">   
         <a>About</a>
       </Link>
     </div>
