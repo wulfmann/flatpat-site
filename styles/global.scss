@@ -54,3 +54,20 @@ p {
 section p {
   margin-bottom: 1rem;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.25;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+}
