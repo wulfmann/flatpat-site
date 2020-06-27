@@ -11,7 +11,7 @@ export default function() {
       </Link>
 
       <div className={styles.links}>
-        <Link href="/how"><a>how</a></Link>
+        <Link href="/guide"><a>GUIDE</a></Link>
       </div>
     </div>
   )
