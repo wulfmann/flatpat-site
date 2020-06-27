@@ -15,7 +15,7 @@ export default function() {
       <section>
         <h2>Capture</h2>
         <p>Photograph your Flat Pat</p>
-        <div className="grid">
+        <div className="grid home-grid">
           <div className="placeholder"></div>
                     <div className="placeholder"></div>
         </div>
