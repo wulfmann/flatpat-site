@@ -1,9 +1,14 @@
+import Link from 'next/link';
+import styles from './styles/components/Header.component.scss';
+
 export default function() {
   return (
-    <div>
-      <img src="/logo.svg" alt="Flat Pat" width="150"/>
-      <div>
-      
+    <div className={styles.nav}>
+      <div className={styles.title}>
+        FLAT PAT
+      </div>
+      <div className={styles.links}>
+        <Link href="/how"><a>how</a></Link>
       </div>
     </div>
   )

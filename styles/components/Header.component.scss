@@ -1,0 +1,17 @@
+.title {
+  font-size: 1.25rem;
+}
+
+.nav {
+  display: flex;
+  border-bottom: 1px #ccc solid;
+  padding: .5rem 0;
+}
+
+.links {
+  display: flex;
+  
+  a {
+    text-decoration: none;
+  }
+}
