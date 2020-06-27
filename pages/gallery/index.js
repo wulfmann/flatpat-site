@@ -18,7 +18,24 @@ export default function() {
           <Link href="/gallery/1">
             <div className="placeholder"></div>
           </Link>
+          <Link href="/gallery/1">
+            <div className="placeholder"></div>
+          </Link>
+          <Link href="/gallery/1">
+            <div className="placeholder"></div>
+          </Link>
+          <Link href="/gallery/1">
+            <div className="placeholder"></div>
+          </Link>
+          <Link href="/gallery/1">
+            <div className="placeholder"></div>
+          </Link>
         </div>
+      </section>
+      <section>
+        <Link href="/submit">
+          <h2>Submit your own</h2>
+        </Link>
       </section>
     </Layout>
   )
