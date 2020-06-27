@@ -5,7 +5,7 @@ if (typeof window !== 'undefined') {
   const WebFont = require('webfontloader');
   WebFont.load({
     google: {
-      families: ['Krona One']
+      families: ['Krona One', 'Open Sans']
     }
   });
 }
