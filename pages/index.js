@@ -8,12 +8,12 @@ export default function() {
       <section>
         <img src="/logo.svg" alt="Flat Pat" width="100"/>
         <h2>FLAT PAT</h2>
-        <h3>A secret photo project chronicling the adventures of flat pat.</h3>
+        <h3>A secret photo project chronicling the adventures of Flat Pat</h3>
         <p>We have printed stickers with an illustration of Pat and are trying to get pictures of him in as many places as possible.<br/><br/>Rule #1: Don't talk about Flat Pat</p>
       </section>
       
       <section className={styles.notice}>
-        <p>Want to get involved yourself?</p>
+        <p>Want to get involved?</p>
         <Link href="/get">
           <a className={styles.link}>Get Flat Pat</a>
         </Link>
@@ -45,7 +45,7 @@ export default function() {
 
       <section>
         <h2>Guide</h2>
-        <p>Have Flat Pat, but not sure what to do next?</p>
+        <p>Already have Flat Pat, but not sure what to do next?</p>
         <Link href="/guide">
           <a className={styles.link}>Read the Guide</a>
         </Link>
