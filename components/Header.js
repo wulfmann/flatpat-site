@@ -16,7 +16,7 @@ export default function() {
       
       {menuOpen && (
         <div className={styles.mobileMenu}>
-              <div className={styles.menu} onClick={e=>setMenuOpen(!menuOpen)}>CLOSE</div>
+              <div className={styles.mobileIcon} onClick={e=>setMenuOpen(!menuOpen)}>CLOSE</div>
          <div className={styles.mobileLinks}>
             <Link href="/">
               <a>Home</a>
@@ -34,6 +34,10 @@ export default function() {
             <Link href="/submit">
               <a>Submit</a>
             </Link>
+          </div>
+          
+          <div>
+            <a href="mailto:submissions@imflatpat.com">submissions@imflatpat.com</a>
           </div>
         </div>
       )}
