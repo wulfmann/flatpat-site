@@ -10,9 +10,10 @@ export default function() {
         <h2>FLAT PAT</h2>
         <h3>A secret photo project chronicling the adventures of flat pat.</h3>
         <p>We have printed stickers with an illustration of Pat and are trying to get pictures of him in as many places as possible.<br/><br/>Rule #1: Don't talk about Flat Pat</p>
-        
+      </section>
+      
+      <section className={styles.notice}>
         <p>Want to get involved yourself?</p>
-
         <Link href="/get">
           <a className={styles.link}>Get Flat Pat</a>
         </Link>
