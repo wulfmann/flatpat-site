@@ -32,9 +32,18 @@ export default function() {
           </Link>
         </div>
       </section>
+
       <section>
+        <h2>Want to get involved?</h2>
+        
+        <Link href="/get">
+          <a>Get Flat Pat</a>
+        </Link>
+        
+        <p>If you already have Flat Pat:</p>
+
         <Link href="/submit">
-          <h2>Submit your own</h2>
+          <a>Submit your photos</a>
         </Link>
       </section>
     </Layout>
