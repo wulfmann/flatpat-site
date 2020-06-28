@@ -35,10 +35,6 @@ export default function() {
               <a>Submit</a>
             </Link>
           </div>
-          
-          <div className={styles.contact}>
-            <a href="mailto:submissions@imflatpat.com">submissions@imflatpat.com</a>
-          </div>
         </div>
       )}
     </div>
