@@ -16,11 +16,10 @@ export default function() {
         </a>
       </Link>
 
-      <div className={styles.menu} onClick={e=>setMenuOpen(!menuOpen)}>MENU</div>
+      <div className={[styles.menu, theme].join(' ')}onClick={e=>setMenuOpen(!menuOpen)}>{menuOpen ? 'CLOSE' : 'MENU'}</div>
       
       {menuOpen && (
         <div className={styles.mobileMenu}>
-              <div className={styles.mobileIcon} onClick={e=>setMenuOpen(!menuOpen)}>CLOSE</div>
          <div className={styles.mobileLinks}>
             <Link href="/">
               <a>Home</a>

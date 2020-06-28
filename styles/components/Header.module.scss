@@ -52,6 +52,15 @@
   }
 }
 
+.menu {
+  position: relative;
+  z-index: 2;
+
+  &.light {
+    color: white;
+  }
+}
+
 .contact {
   color: white;
   text-align: center;
