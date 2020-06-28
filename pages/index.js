@@ -10,6 +10,8 @@ export default function() {
         <h3>A secret photo project chronicling the adventures of flat pat.</h3>
         <p>We have printed stickers with an illustration of Pat and are trying to get pictures of him in as many places as possible.<br/><br/>Rule #1: Don't talk about Flat Pat</p>
         
+        <p>Want to get involved yourself?</p>
+
         <Link href="/get">
           <a>Get Flat Pat</a>
         </Link>
@@ -38,6 +40,7 @@ export default function() {
          </Link>
         </div>
       </section>
+
       <section>
         <h2>Guide</h2>
         <p>Have Flat Pat, but not sure what to do next?</p>

@@ -3,7 +3,7 @@ import Layout from '../../layouts/default';
 
 export default function() {
   return (
-    <Layout title="Gallery">
+    <Layout title="Where is Flat Pat?">
       <section>
         <div className="grid">
           <Link href="/gallery/1">
