@@ -15,7 +15,7 @@ export default function() {
       <div className={styles.menu} onClick={e=>setMenuOpen(!menuOpen)}>MENU</div>
       
       {menuOpen && (
-        <div>
+        <div className={styles.mobileMenu}>
           menu
         </div>
       )}
