@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Layout from '../layouts/default';
+import styles from '../styles/pages/index.module.scss';
 
 export default function() {
   return (
@@ -13,7 +14,7 @@ export default function() {
         <p>Want to get involved yourself?</p>
 
         <Link href="/get">
-          <a>Get Flat Pat</a>
+          <a className={styles.link}>Get Flat Pat</a>
         </Link>
       </section>
 
@@ -36,7 +37,7 @@ export default function() {
 
         <div className="home-link">
          <Link href="/gallery">
-            <a>View More</a>
+            <a className={styles.link}>View More</a>
          </Link>
         </div>
       </section>
@@ -45,7 +46,7 @@ export default function() {
         <h2>Guide</h2>
         <p>Have Flat Pat, but not sure what to do next?</p>
         <Link href="/guide">
-          <a>Read the Guide</a>
+          <a className={styles.link}>Read the Guide</a>
         </Link>
       </section>
     </Layout>
