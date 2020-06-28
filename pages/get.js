@@ -16,12 +16,12 @@ export default function() {
         
         <form onSubmit={onSubmit}>
           <label>Name</label>
-          <input type=text"></input>
+          <input type="text"></input>
           
           <label>Email</label>
-          <input type=text"></input>
+          <input type="text"></input>
           
-          <input type=submit"></input>
+          <input type="submit"></input>
         </form>
       </section>
     </Layout>
