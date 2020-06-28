@@ -15,6 +15,7 @@ export default function() {
         <Link href="/map">
           <a>Map</a>
         </Link>
+        <a href="https://instagram.com/imflatpat">Instagram</a>
         <Link href="/gallery">
           <a>Gallery</a>
         </Link>
