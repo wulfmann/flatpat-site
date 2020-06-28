@@ -11,7 +11,8 @@ export default function() {
           <div className={styles.title}>FLAT PAT</div>
         </a>
       </Link>
-      <div className={styles.menu} onClick={e=>setMenuOpen(!menu)}>MENU</div>
+
+      <div className={styles.menu} onClick={e=>setMenuOpen(!menuOpen)}>MENU</div>
       
       {menuOpen && (
         <div>
