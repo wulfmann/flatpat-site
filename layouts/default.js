@@ -6,11 +6,18 @@ export default function({ children, title, description }) {
   return (
     <main>
       <Header />
-      <div className={styles.title}>
-        <h1>{title}</h1>
-        {description && <p className={styles.description}>{description}</p>}
-      </div>
+
+      {(title || description) && (
+        <div className={styles.title}>
+          {title && <h1>{title}</h1>}
+          {description && (
+            <p className={styles.description}>{description}</p>
+          )}
+        </div>
+      )}
+
       <div>{children}</div>
+
       <Footer />
     </main>
   )
