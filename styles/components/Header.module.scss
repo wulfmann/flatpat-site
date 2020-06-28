@@ -1,6 +1,12 @@
 .title {
   font-size: 1.25rem;
   color: black;
+  position: relative;
+  z-index: 2;
+  
+  &.light {
+    color: white;
+  }
 }
 
 .nav {
@@ -54,6 +60,7 @@
 
 .mobileMenu {
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100vw;

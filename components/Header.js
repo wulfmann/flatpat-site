@@ -4,11 +4,15 @@ import styles from '../styles/components/Header.module.scss';
 
 export default function() {
   const [menuOpen, setMenuOpen] = useState(false);
+  
+  const theme = menuOpen ? styles.dark : styles.light;
+
   return (
     <div className={styles.nav}>
+
       <Link href="/">
         <a>
-          <div className={styles.title}>FLAT PAT</div>
+          <div className={[styles.title, theme].join(' ')}>FLAT PAT</div>
         </a>
       </Link>
 
