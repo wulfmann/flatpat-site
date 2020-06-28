@@ -25,7 +25,7 @@ export default function() {
       </div>
       
       <div>
-        <a href="mailto:submissions@imflatpat.com">submissions@imflatpat.com</a>
+        <a href="mailto:pat@imflatpat.com">pat@imflatpat.com</a>
       </div>
     </div>
   )

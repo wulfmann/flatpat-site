@@ -29,7 +29,7 @@ export default function() {
       <section>
         <h2>Submit</h2>
         <p>Submit your photos and videos</p>
-        <Link href="/submit">Submit</Link>
+        <Link href="/submit">Here</Link>
       </section>
     </Layout>
   )
