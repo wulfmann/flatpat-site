@@ -36,7 +36,7 @@ export default function() {
             </Link>
           </div>
           
-          <div>
+          <div className={styles.contact}>
             <a href="mailto:submissions@imflatpat.com">submissions@imflatpat.com</a>
           </div>
         </div>
