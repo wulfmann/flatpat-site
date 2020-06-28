@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Layout from '../../layouts/default';
-import styles from '../styles/pages/gallery.module.scss';
+import styles from '../../styles/pages/gallery.module.scss';
 
 export default function() {
   return (
