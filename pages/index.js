@@ -30,7 +30,11 @@ export default function() {
         </div>
       </section>
       <section>
-        <h2>Submit</h2>
+        <h2>Guide</h2>
+        <p>Have a Flat Pat, but not sure what to do with it?</p>
+        <Link href="/guide">
+          <a>Find Out How</a>
+        </Link>
       </section>
     </Layout>
   )
