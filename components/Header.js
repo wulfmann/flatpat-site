@@ -5,7 +5,7 @@ import styles from '../styles/components/Header.module.scss';
 export default function() {
   const [menuOpen, setMenuOpen] = useState(false);
   
-  const theme = menuOpen ? styles.dark : styles.light;
+  const theme = menuOpen ? styles.light : styles.dark;
 
   return (
     <div className={styles.nav}>
