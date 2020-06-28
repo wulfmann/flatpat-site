@@ -23,6 +23,25 @@
   }
 }
 
+.mobileLinks {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+
+  a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    // padding-bottom: 2px;
+    // border-bottom: 2px white solid;
+    color: white;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .mobileMenu {
   position: absolute;
   top: 0;

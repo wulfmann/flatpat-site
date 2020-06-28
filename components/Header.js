@@ -16,7 +16,25 @@ export default function() {
       
       {menuOpen && (
         <div className={styles.mobileMenu}>
-          menu
+              <div className={styles.menu} onClick={e=>setMenuOpen(!menuOpen)}>CLOSE</div>
+         <div className={styles.mobileLinks}>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+            <Link href="/guide">
+              <a>Guide</a>
+            </Link>
+            <Link href="/map">
+              <a>Map</a>
+            </Link>
+            <a href="https://instagram.com/imflatpat">Instagram</a>
+            <Link href="/gallery">
+              <a>Gallery</a>
+            </Link>
+            <Link href="/submit">
+              <a>Submit</a>
+            </Link>
+          </div>
         </div>
       )}
     </div>
