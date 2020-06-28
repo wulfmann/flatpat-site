@@ -8,7 +8,7 @@ export default function() {
   const theme = menuOpen ? styles.light : styles.dark;
 
   return (
-    <div className={styles.nav}>
+    <div className={[styles.nav, theme].join(' ')}>
 
       <Link href="/">
         <a>
@@ -16,7 +16,7 @@ export default function() {
         </a>
       </Link>
 
-      <div className={[styles.menu, theme].join(' ')}onClick={e=>setMenuOpen(!menuOpen)}>{menuOpen ? 'CLOSE' : 'MENU'}</div>
+      <div className={[styles.menu, theme].join(' ')} onClick={e=>setMenuOpen(!menuOpen)}>{menuOpen ? 'CLOSE' : 'MENU'}</div>
       
       {menuOpen && (
         <div className={styles.mobileMenu}>
