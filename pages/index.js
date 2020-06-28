@@ -8,7 +8,7 @@ export default function() {
         <img src="/logo.svg" alt="Flat Pat" width="100"/>
         <h2>FLAT PAT</h2>
         <h3>A secret photo project chronicling the adventures of flat pat.</h3>
-        <p>We have printed stickers with an illustration of Pat and are trying to make him the most well-travelled sticker in existence.<br/>Rule #1: Don't talk about Flat Pat</p>
+        <p>We have printed stickers with an illustration of Pat and are trying to get pictures of him in as many places as possible.<br/><br/>Rule #1: Don't talk about Flat Pat</p>
         
         <Link href="/get">
           <a>Get Flat Pat</a>
