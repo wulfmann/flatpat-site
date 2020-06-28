@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Layout from '../../layouts/default';
+import styles from '../styles/pages/gallery.module.scss';
 
 export default function() {
   return (
@@ -37,13 +38,13 @@ export default function() {
         <h2>Want to get involved?</h2>
         
         <Link href="/get">
-          <a>Get Flat Pat</a>
+          <a className={styles.link}>Get Flat Pat</a>
         </Link>
         
         <p>If you already have Flat Pat:</p>
 
         <Link href="/submit">
-          <a>Submit your photos</a>
+          <a className={styles.link}>Submit your photos</a>
         </Link>
       </section>
     </Layout>
