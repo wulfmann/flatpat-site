@@ -15,6 +15,7 @@ export default function() {
         <Link href="/map">
           <a>Map</a>
         </Link>
+        <a href="https://instagram.com/imflatpat">Instagram</a>
         <Link href="/gallery">
           <a>Gallery</a>
         </Link>
@@ -24,7 +25,7 @@ export default function() {
       </div>
       
       <div>
-        <a href="mailto:submissions@imflatpat.com">submissions@imflatpat.com</a>
+        <a href="mailto:pat@imflatpat.com">pat@imflatpat.com</a>
       </div>
     </div>
   )
